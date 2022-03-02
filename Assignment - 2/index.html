@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Online Food Delivery | MeraKhana.com</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /*                               Navigation Bar                         */
+
+        #navbar {
+            display: flex;
+            align-items: center;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+        .logo {
+            margin: 12px 34px;
+        }
+
+        .logo img {
+            border-radius: 20px;
+        }
+
+        #navbar ul {
+            display: flex;
+        }
+
+        #navbar::before {
+            content: "";
+            background-color: rgb(245, 236, 236);
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.89;
+            background: url("img/bg1.jpg");
+        }
+
+        #navbar ul li {
+            list-style-type: none;
+            font-size: 1.2rem;
+        }
+
+        #navbar ul li a {
+            display: block;
+            padding: 8px 39px;
+            text-decoration: none;
+            color: black;
+            background-color: rgb(247, 247, 152);
+            border: 4px solid rgb(248, 38, 38);
+            border-radius: 130px;
+            margin: 0px 12px;
+            font-size: 1.37rem;
+        }
+
+        #navbar ul li a:hover {
+
+            background-color: rgb(255, 219, 172);
+            cursor: pointer;
+            border-radius: 11px;
+
+        }
+
+        /*                                  Home Section                             */
+
+        .home {
+            text-align: center;
+            justify-content: center;
+            color: black;
+            font-family: 'Baloo Bhai 2', cursive;
+            padding: 50px;
+        }
+
+        .h-primary {
+            font-size: 1.2rem;
+            color: black;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+        .btn {
+            border: 2px solid red;
+            border-radius: 9px;
+            font-size: 1.14em;
+            font-family: 'Baloo Bhai 2', cursive;
+            margin-top: 13px;
+            padding: 9px;
+            cursor: pointer;
+        }
+
+        .btn a {
+            text-decoration: none;
+            color: red;
+        }
+
+        .btn:hover {
+            /* background-color: orange; */
+            border-radius: 13px;
+        }
+
+        /*                                             Services Section                                                          */
+
+        .our-services div {
+            /* background-color: rgb(255 241 229); */
+            background-color: rgb(254 251 249);
+        }
+
+        .our-services h1 {
+            background-color: #fcf4ea;
+        }
+
+        .box img {
+            /* display:flex; */
+            width: 193px;
+            padding: 30px 34px;
+        }
+
+        .box {
+            /* display: flex; */
+            /* flex-direction: column; */
+            text-align: center;
+            justify-content: center;
+            border: 4px solid red;
+            border-radius: 10px;
+            margin: 20px 20px;
+            font-size: 1.1rem;
+            color: black;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+        .services h1 {
+            padding: 27px 30px;
+            text-align: center;
+            justify-content: center;
+        }
+
+        /*                               Contact Section                                   */
+
+        .contact h1 {
+            padding: 27px 30px;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .contact-form {
+            text-align: center;
+            padding: 12px 8px;
+            justify-content: center;
+            margin: 0px 400px;
+        }
+
+        .contact-form input {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            padding: 12px 12px;
+            width: 90%;
+            justify-content: center;
+            margin: 0px 13px;
+            font-size: 1.3rem;
+            color: black;
+            border-radius: 6.26px;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+        .contact {
+            background-image: url("img/contact-us1.jpg");
+            background-repeat: no-repeat center center;
+            background-size: 1400px;
+            margin: 60px 20px;
+        }
+
+        .contact-form input[type=submit] {
+            width: 94%;
+        }
+
+        .contact-form input[type=submit]:hover {
+            cursor: pointer;
+            background-color: aliceblue;
+        }
+
+        .contact-us h1 {
+            background-color: #fcf4ea;
+            margin: 25px;
+            padding: 27px 30px;
+            text-align: center;
+            justify-content: center;
+        }
+
+        /*                                          About Us                                               */
+
+        .about-us {
+            margin: 10px 20px;
+            text-align: center;
+            font-size: 1.1rem;
+            font-family: 'Baloo Bhai 2', cursive;
+            background-color: rgb(254 251 249);
+        }
+
+        .about-us h1 {
+            background-color: #fcf4ea;
+            margin: 25px;
+            padding: 27px 30px;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .about {
+            /* border: 4px solid red;
+            margin: 10px 20px; */
+            border: 4px solid orange;
+            border-radius: 10px;
+            padding: 15px 15px;
+        }
+
+        /*                          Footer Section                   */
+
+        footer {
+            font-family: 'Baloo Bhai 2', cursive;
+            font-size: 1.2rem;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<!--                                Body of Page                                    -->
+
+<body>
+    <!--                    Navigation Bar                  -->
+    <nav id="navbar">
+        <div class="logo">
+            <img src="img/logo1.jpg" alt="MeraKhana.com" style=" width: 107px;height: 90px;">
+        </div>
+
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">Our Services</a></li>
+            <li class="item"><a href="#">About Us</a></li>
+            <li class="item"><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="home">
+            <div class="h-primary">
+                <h1>MeraKhana : Best Online Food Service In India!!</h1>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum vitae ut magni obcaecati.?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit? Lorem ipsum dolor sit amet.</p>
+            <button class="btn"><a href="#">Order Now</a></button>
+        </div>
+    </section>
+
+    <!--                        Our Services                -->
+    <section class="services">
+        <div class="our-services">
+            <div class="h-primary">
+                <h1>Our Services</h1>
+            </div>
+
+            <div class="box">
+                <h2 class="h-secondary">Food Ordering</h2>
+                <img src="img/pizza.jpg" alt="pizza">
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ut temporibus, repellendus amet
+                    itaque vero accusamus earum, nisi est magni incidunt officia esse quae consequuntur nobis molestias!
+                    Error, cumque assumenda.</p>
+
+            </div>
+            <div class="box">
+                <h2 class="h-secondary">Catering</h2>
+                <img src="img/catering.jpg" alt="catering">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ut temporibus, repellendus amet
+                    itaque vero accusamus earum, nisi est magni incidunt officia esse quae consequuntur nobis molestias!
+                    Error, cumque assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
+                    exercitationem.</p>
+            </div>
+            <div class="box">
+                <h2 class="h-secondary">Book Table</h2>
+                <img src="img/book-resturant.jpg" alt="Table">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ut temporibus, repellendus amet
+                    itaque vero accusamus earum, nisi est magni incidunt officia esse quae consequuntur nobis molestias!
+                    Error, cumque assumenda.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--                        About Us                        -->
+    <section class="about-us">
+        <div class="h-primary">
+            <h1>About Us</h1>
+        </div>
+        <div class="about">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, itaque dolores harum accusantium
+                sit, totam eum officia perspiciatis voluptatibus eligendi cumque. Aliquid at rerum, doloribus sapiente,
+                officia hic, deleniti possimus modi consectetur sit numquam! Lorem ipsum dolor, sit amet consectetur
+                adipisicing elit. Labore autem at mollitia libero fuga iure!</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, doloremque. Repudiandae voluptatibus
+                mollitia, cumque quia optio tempore reprehenderit, ipsam incidunt, voluptates ab praesentium.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, quos eos nostrum et atque perferendis
+                quisquam velit.</p>
+            <br>
+        </div>
+    </section>
+
+    <!--                        Contact Us                        -->
+    <section class="contact">
+        <div class="contact-us">
+            <div class="h-primary">
+                <h1>Contact Us</h1>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Name">
+                <br>
+                <input type="email" placeholder="Email">
+                <br>
+                <input type="password" placeholder="Password">
+                <br>
+                <input type="text" placeholder="Phone No.">
+                <br>
+                <input type="text-area" col="80" row="150" placeholder="Write your message here">
+                <br>
+                <input type="submit" placeholder="Submit">
+                <br>
+            </form>
+        </div>
+        </div>
+    </section>
+
+    <!--                    Footer Section                      -->
+
+    <footer>
+        &copy; Copyright 2021. All Rights Reserved.
+    </footer>
+</body>
+</html>
