@@ -1,0 +1,46 @@
+<?xml version = "1.0"?> 
+<?xml-stylesheet type = "text/xsl" href = "Employee.xsl"?> 
+<class>   
+   <employee id = "001">  
+      <firstname>Harry</firstname>   
+      <lastname>Potter</lastname>   
+      <age>30</age>   
+      <salary>30000</salary>  
+   </employee> 
+
+   <employee id = "002">   
+      <firstname>Ronald</firstname>   
+      <lastname>Weasely</lastname>   
+      <age>31</age>   
+      <salary>29900</salary>  
+   </employee> 
+
+   <employee id = "003">   
+      <firstname>Hermione</firstname>   
+      <lastname>Granger</lastname>   
+      <age>31</age>  
+      <salary>32000</salary>   
+   </employee> 
+
+    <employee id = "004">   
+      <firstname>Ginny</firstname>   
+      <lastname>Weasely</lastname>   
+      <age>29</age>  
+      <salary>30000</salary>   
+   </employee>
+
+   <employee id = "005">   
+      <firstname>Neville</firstname>   
+      <lastname>Longbottom</lastname>   
+      <age>31</age>  
+      <salary>28000</salary>   
+   </employee>
+
+   <employee id = "006">   
+      <firstname>Luna</firstname>   
+      <lastname>Lovegood</lastname>   
+      <age>29</age>  
+      <salary>31000</salary>   
+   </employee>
+   
+</class>  
