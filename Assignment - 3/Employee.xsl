@@ -18,13 +18,13 @@ tell processor to process the entire document with this template.
       -->   
       <html>   
          <body>  
-            <h2>Employee</h2>   
+            <h2>Ministry of Magic</h2>   
             <table border = "1">   
                <tr bgcolor = "#9acd32">   
                   <th>ID</th>   
                   <th>First Name</th>   
                   <th>Last Name</th>   
-                  <th>Nick Name</th>   
+                  <th>Age</th>   
                   <th>Salary</th>   
                </tr>   
                <!-- for-each processing instruction   
