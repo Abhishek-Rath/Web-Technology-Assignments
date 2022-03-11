@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+* {
+  font-family: "Noto Serif";
+}
+
+html {  
+  height: 100vh;  
+  display: flex;  
+  align-items: center;  
+  justify-content: center;   
+  background-image: linear-gradient(315deg, #ffafbd  0%, #ffc3a0 74%);  
+
+}  
+
+.title {  
+  margin-bottom: 10px;  
+  padding: 5px 0;  
+  font-size: 40px;  
+  font-weight: bold;  
+  text-align: center;  
+  color: rgba(37, 37, 35, 0.87);   
+}  
+
+input[type=button] {  
+  width: 60px;  
+  height: 60px;  
+  float: left;  
+  padding: 0;  
+  margin: 5px;  
+  box-sizing: border-box;  
+  background: #ecedef;  
+  border: none;  
+  font-size: 30px;  
+  line-height: 30px;  
+  border-radius: 50%;  
+  font-weight: 700;  
+  color: #5E5858;  
+  cursor: pointer;    
+}  
+input[type=text] {  
+  width: 270px;  
+  height: 60px;  
+  float: left;  
+  padding: 0;  
+  box-sizing: border-box;  
+  border: none;  
+  background: none;  
+  color: #efb6b2;  
+  text-align: right;  
+  font-weight: 700;  
+  font-size: 60px;  
+  line-height: 60px;  
+  margin: 0 25px;  
+}
+
+.calculator {  
+  background-color: #cff59e;  
+  /* box-shadow: 0px 0px 0px 10px #666;   */
+  border: 5px solid #cff59e;  
+  border-radius: 10px;  
+}  
+
+#display {  
+  height: 40px;  
+  text-align: right;  
+  background-color: rgb(73, 68, 68);  
+  border: 3px solid white;  
+  font-size: 18px;  
+  left: 2px;  
+  top: 2px;  
+  color: #efb6b2;  
+}  
+.btnTop {  
+  color: white;  
+  background-color: #6f6f6f;  
+  font-size: 14px;  
+  margin: auto;  
+  width: 50px;  
+  height: 25px;  
+}
